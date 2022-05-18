@@ -52,13 +52,7 @@ You can use [OpenShift Local](https://developers.redhat.com/products/openshift-l
   - Validate you're logged in by invoking the commaned `oc get status`.  The terminal will output information. The first line will say `In project default on server ...`.  
   - You are succesfully logged in if the response has the exact server used in the oc login command.
 
-2 . Clone this repository.  We will mutate, and add files as part of the demo.  Either clone via SSH or HTTPS.
-
-- Clone with SSH remote:
-
-  ```shell
-  git clone git@github.com:ploigos-automated-governance/1-demo.git
-  ```
+2 . Clone this repository.  We will mutate, and add files as part of the demo.  Either clone via HTTPS.
 
 - Clone with HTTPS remote:
 
@@ -103,7 +97,7 @@ Our root directory, unless otherwise stated in the directions, will be the `1-de
 **1 . Clone the Ploigos Automated Governance Platform repository.**
 
 ```shell
-git clone git@github.com:ploigos-automated-governance/2-platform-ops.git
+git clone https://github.com/ploigos-automated-governance/2-platform-ops.git
 ```
 
 **2 . Navigate to the cloned repo root folder: `2-platform-ops`. Begin the software factory installation with the following commands.**
